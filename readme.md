@@ -67,4 +67,4 @@ fpgrowth(grouped, min_sup=2)
 	grouped = fp.preprocess_transactions(txns, min_sup=3)
 	fp.fpgrowth(grouped, min_sup=3)
 	```
-
+**For more in Depth explination seek the main.pdf file in the (/docs) folder**
