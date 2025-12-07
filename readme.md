@@ -26,6 +26,14 @@
 - `test/market_test.py`: runner that loads `assets/market.csv` and
 	runs FP-growth.
 
+**Architecture**
+
+The following class diagram shows the main classes and relationships
+in this implementation. If the image does not display here, place the
+diagram file at `assets/class_diagram.png` (or open it from `docs/`).
+
+![Class diagram](assets/class_diagram.png)
+
 **How to prepare your data**
 1. If your transactions are a list of item lists (e.g. `[['a','b'],['b','c']]`), pass
 	 that list into `preprocess_transactions(transactions, min_sup)`.
