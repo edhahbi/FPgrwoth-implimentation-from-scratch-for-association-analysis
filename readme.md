@@ -1,17 +1,18 @@
 **Quick Start**
 - **Run the small example** (bundled sample transactions):
-
-	- `PYTHONPATH=src python3 test/test.py` (or python if you're on windows)
+	type this in the command line or the terminal
+	- `PYTHONPATH=src python3 test/test.py` 
 
 - **Run the market CSV example** (one-hot encoded CSV provided in
 	`assets/market.csv`):
-
-	- `PYTHONPATH=src python3 test/market_test.py` (or python if you're on windows)
+	type this in the command line or the terminal
+	- `PYTHONPATH=src python3 test/market_test.py` 
 
 	The `market_test.py` script auto-detects the bundled `assets/market.csv`
 	and prints discovered frequent itemsets with their supports. You may
 	optionally pass a path and minimum support as arguments:
 
+	type this in the command line or the terminal
 	- `PYTHONPATH=src python3 test/market_test.py path/to/your.csv 3`
 
 **Files / Modules**
