@@ -30,7 +30,7 @@
 
 The following class diagram shows the main classes and relationships
 in this implementation. If the image does not display here, place the
-diagram file at `assets/class_diagram.png` (or open it from `docs/`).
+diagram file at `assets/class_diagram.png` .
 
 ![Class diagram](assets/class_diagram.png)
 
